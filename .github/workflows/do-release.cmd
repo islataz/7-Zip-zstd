@@ -3,10 +3,10 @@ REM Build some release of 7-Zip ZS
 
 SET COPYCMD=/Y /B
 SET COPTS=-m0=lzma -mx9 -ms=on -mf=bcj2
-SET URL=https://www.7-zip.org/a/7z2201.exe
-SET VERSION=22.01
+SET URL=https://www.7-zip.org/a/7z2301.exe
+SET VERSION=23.01
 SET SZIP="C:\Program Files\7-Zip\7z.exe"
-SET LURL=https://raw.githubusercontent.com/mcmilk/7-Zip-zstd/master/CPP/7zip/Bundles
+SET LURL=https://raw.githubusercontent.com/islataz/7-Zip-zstd/23/CPP/7zip/Bundles
 
 SET WD=%cd%
 SET SKEL=%WD%\skel
